@@ -33,9 +33,9 @@ npm i @types/negotiator --save-dev
 │        │    ├── en.json (3)
 │        │    └── nl.json (4)
 │        │
-│        ├── layout.tsx (5)
-│        ├── page.tsx (6)
-│        └── dictionaries.ts (7)
+│        ├── dictionaries.ts (5)
+│        ├── layout.tsx (6)
+│        └── page.tsx (7)
 │
 ├── i18n-config.ts (8)
 └── middleware.ts (9)
