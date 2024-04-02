@@ -28,17 +28,15 @@ npm i @types/negotiator --save-dev
 # project structure 
 
 ├──app
-│   ├── [lang] (1) # folder
-│   │   ├── layout.tsx (2)
-│   │   └── page.tsx (3)
-│   │
-│   ├── dictionaries.ts (4)
-│   │
-│   └──  messages (5) # folder
-│        ├── en.json (6)
-│        └── nl.json (7)
+│   └── [lang] (1) # folder
+│        ├── messages (2) # folder
+│        │    ├── en.json (3)
+│        │    └── nl.json (4)
+│        │
+│        ├── layout.tsx (5)
+│        ├── page.tsx (6)
+│        └── dictionaries.ts (7)
 │
 ├── i18n-config.ts (8)
 └── middleware.ts (9)
-
 ```
